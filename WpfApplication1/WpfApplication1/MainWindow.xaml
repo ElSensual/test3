@@ -7,6 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Button x:Name="button" HorizontalAlignment="Left" Margin="369,206,0,0" VerticalAlignment="Top" Width="76">
+            <Button x:Name="button_Copy2" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="76" RenderTransformOrigin="-0.98,-0.455"/>
+        </Button>
+        <Button x:Name="button_Copy" Content="Button" HorizontalAlignment="Left" Margin="102,96,0,0" VerticalAlignment="Top" Width="76"/>
+        <Button x:Name="button_Copy1" Content="Button" HorizontalAlignment="Left" Margin="273,70,0,0" VerticalAlignment="Top" Width="76"/>
+        <Button x:Name="button_Copy3" Content="Button" HorizontalAlignment="Left" Margin="216,139,0,0" VerticalAlignment="Top" Width="76"/>
+
     </Grid>
 </Window>
